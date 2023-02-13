@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: sans-serif;
+}
+
+:root {
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color: #172D40;
+}
+h2 {
+    color: #Fff;
+    text-align: center;
+    font-size: 35px;
+}
+.war {
+    width: 400px;
+    height: 450px;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    padding: var(--spacing);
+    background-color: var(--base);
+    filter: blur(var(--blur));
+}
+label {
+    color: #fff;
+}
+.controls {
+    position: absolute;
+    left: 30%;
+    top: 10%;
+}
+span {
+    color: var(--base);
+}
